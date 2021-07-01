@@ -40,6 +40,7 @@ public class Start {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		System.out.println("Catalogo Principale:");
 		lib.printCatalog();
 		System.out.println();
 		System.out.println("Pubblicazione cercata:");
